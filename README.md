@@ -1,4 +1,4 @@
-# One-to-one private chat with sentiment analysis using Pusher Channels, Django and Vue.js
+# One-to-one private chat using Pusher Channels, Django and Vue.js -
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ This application uses the following:
 First, clone this repository to your local machine:
 
 ```sh
- $ git clone https://github.com/dongido001/pusher-chat-sentiment-analysis.git
+ $ git clone 
 ```
 
 Next, update the following keys in the `api/.env` file with your correct Pusher keys:
@@ -38,7 +38,7 @@ Then, update the `.env` file in the project’s root folder with your correct Pu
 
 ### Running the Apps
 
-#### Run the Django app
+#### Run the Flask app
 
 - CD to the Django folder - api:
 
@@ -64,11 +64,6 @@ On windows? Activate it with the below:
   source env/Scripts/activate
 ```
 
-- Install the dependencies:
-
-```
-pip install -r requirements.txt
-```
 
 - Download NLTK corpora:
 
@@ -77,10 +72,10 @@ $ python -m textblob.download_corpora lite
 - Finally run the app:
 
 ```
- Django run
+ flask run
 ```
 
-Check the URL where Flask is running - [http://localhost:8000](http://localhost:8000)
+Check the URL where Flask is running - [http://localhost:8000](http://localhost:8000).
 
 #### Run the Vue app
 
@@ -100,6 +95,6 @@ Then run the app:
 
 ## Built With
 
-- [Django](https://www.djangoproject.com/) - A framework for Python
+- [Django](https://djangoproject.com/) - A framework for Python
 - [Pusher](https://pusher.com/) - APIs to enable devs building realtime features
 - [Vue.js](https://vuejs.org/) - A JavaScript Framework for building User Interfaces
